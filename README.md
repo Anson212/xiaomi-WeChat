@@ -1,6 +1,6 @@
 # 项目说明
 练手项目 看了微信官方文档语法和vue.js有点相似，正好学过vue 也用vue写过一个商城项目，就用小程序写个商城，一般来说学过vue.js写个小程序那是很简单的，小程序和vue.js无非就是路由跳转、传参、传数据！    
-另外：微信小程序商城，长期维护版本更新
+**微信小程序商城，长期维护版本更新**
 
 # 目录结构
 - data —— 存放本地数据
@@ -9,7 +9,17 @@
 
 # 项目截图
 
-![image](https://github.com/Anson212/xiaomi-WeChat/tree/master/imagesgif.gif)
+![image](https://github.com/Anson212/xiaomi-WeChat/blob/master/images/gif.gif)
+
+![image](https://github.com/Anson212/xiaomi-WeChat/blob/master/images/shouye.png)
+
+![image](https://github.com/Anson212/xiaomi-WeChat/blob/master/images/224342.png)
+
+![image](https://github.com/Anson212/xiaomi-WeChat/blob/master/images/fafa.png)
+
+![image](https://github.com/Anson212/xiaomi-WeChat/blob/master/images/ghgsdgs.png)
+
+![image](https://github.com/Anson212/xiaomi-WeChat/blob/master/images/jjaa.png)
 
 # 购物车功能
 
