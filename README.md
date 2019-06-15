@@ -206,4 +206,4 @@ Page({
 ```
 
 ## 最后
-数据均来自小米商城官网 如有侵权请请联系删除 ！！！   这个小项目做的有点粗糙、各位将就看看吧！![image](C:\Users\123\Desktop\xiaomi-WeChat\images\123.png)![image](C:\Users\123\Desktop\xiaomi-WeChat\images\123.png)![image](C:\Users\123\Desktop\xiaomi-WeChat\images\123.png)
+数据均来自小米商城官网 如有侵权请请联系删除 ！！！   这个小项目做的有点粗糙、各位将就看看吧！![image](https://github.com/Anson212/xiaomi-WeChat/blob/master/images/123.png)![image](https://github.com/Anson212/xiaomi-WeChat/blob/master/images/123.png)![image](https://github.com/Anson212/xiaomi-WeChat/blob/master/images/123.png)
