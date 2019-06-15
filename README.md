@@ -9,11 +9,7 @@
 
 # 项目截图
 
-![image](C:\Users\123\Desktop\xiaomi-WeChat\images\GIF.gif)![image](C:\Users\123\Desktop\xiaomi-WeChat\images\shouye.png)
-
-![image](C:\Users\123\Desktop\xiaomi-WeChat\images\224342.png)![image](C:\Users\123\Desktop\xiaomi-WeChat\images\fafa.png)
-
-![image](C:\Users\123\Desktop\xiaomi-WeChat\images\jjaa.png)![image](C:\Users\123\Desktop\xiaomi-WeChat\images\ghgsdgs.png)
+![image](https://github.com/Anson212/xiaomi-WeChat/tree/master/imagesgif.gif)
 
 # 购物车功能
 
