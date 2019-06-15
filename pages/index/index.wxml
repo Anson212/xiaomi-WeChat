@@ -1,0 +1,25 @@
+<view class="container">
+  <!--轮播图-->
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" indicator-dots="true">
+   <block>
+    <swiper-item wx:for="{{proList}}" wx:key="goods_id" data-id="{{item.goods_id}}">
+      <image src="{{item.swiperPicSrcImg}}"  data-id="{{item.goods_id}}"  class="slide-image" catchtap="toProDetail"/>
+    </swiper-item>
+   </block>
+
+
+  </swiper>
+  <!--产品列表-->
+  <view class="product-list clearfix" wx:for="{{classList}}" wx:for-item="classList" wx:key="className">
+    <view class="product-category" data-type="{{classList.className}}">{{classList.className}}
+      <!-- <view class="arrow">></view> -->
+    </view>
+    <view class="product-items" wx:for="{{proList}}" wx:key="goods_id" data-id="{{item.goods_id}}" wx:if="{{item.className == classList.className}}" catchtap="toProDetail">
+      <image src="{{item.ProductPicSrcImg}}" class="product-img"></image>
+      <text class="item-title">{{item.ProductName}}</text>
+      <text class="price-brief">{{item.ProductBrief}}</text>
+      <text class="price-now">￥{{item.CurrentPrice}}</text>
+      <text class="price-old">￥{{item.BasicPrice}}</text>
+    </view>
+  </view>
+</view>

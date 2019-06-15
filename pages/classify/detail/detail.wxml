@@ -1,0 +1,79 @@
+<!--pages/products/detail/detail.wxml-->
+<view class="container">
+  <!--轮播图-->
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" indicator-dots="true">
+    <block wx:for="{{imgUrls}}" wx:key="id">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+  <!--标题-->
+  <view class="product-tip">
+    <view class="product-title">{{proListArray.ProductName}}</view>
+    <view class="product-abstract">
+      <text class="product-abstract-orange">{{proListArray.parameterone}}</text>
+      <text class="product-abstract-normal">{{proListArray.parametertwo}}</text>
+    </view>
+    <text class='price-now'>￥{{proListArray.CurrentPrice}}</text>
+    <text class='price-old'>￥{{proListArray.BasicPrice}}</text>
+  </view>
+  <!--横向滚动-->
+  <view class="section section_gap">
+    <scroll-view scroll-x class="scroll-header">
+      <view class="scroll-view-item" wx:for="{{parameter}}" wx:key="id">
+        <image class="scroll-view-item-img" src="{{item.parimg}}"></image>
+        <text class="scroll-view-item-title">{{item.partitle}}</text>
+        <text class="scroll-view-item-type">{{item.parsize}}</text>
+      </view>
+    </scroll-view>
+    <!--商品概述-->
+    <view class="survey-box">
+      <view class="survey">商品概述</view>
+      <block wx:for="{{ProductDescLong}}" wx:key="item.id">
+        <view class="survey-product">
+          <image src="{{item}}" mode="widthFix" class="survey-img"></image>
+        </view>
+      </block>
+    </view>
+  </view>
+
+
+  <!--底部按钮-->
+  <view class="bottomBar">
+    <view class="cart" bindtap="toCart">
+      <image src='/images/cart.png'></image>
+      <text class='cartNum' wx:if="{{cartNum}}">{{cartNum}}</text>
+    </view>
+    <view class="join" bindtap='addCart'>加入购物车</view>
+    <view class='buy' bindtap='addBuy'>立即购买</view>
+  </view>
+
+    <!--加入购物车/立即购买弹出框-->
+  <view class="join-box" hidden="{{boxFlag}}">
+    <image src="{{proListArray.ProductPicSrcImg}}"></image>
+    <text class="join-title">{{proListArray.ProductName}}</text>
+    <text class="join-price">{{proListArray.CurrentPrice}}</text>
+    <!--库存-->
+    <view class="pro-stock">
+      <text>数量</text>
+      <text class="grey">（库存{{stock}}件）</text>
+      <!--加减按钮-->
+      <view class="stepper">
+        <!--减号-->
+        <text class="{{minusStatus}}" bindtap="bindMinus">-</text>
+        <!--数值-->
+        <input type="number" bindchang="bindManual" value="{{num}}"></input>
+        <!--加号-->
+        <text class="normal" bindtap="bindPlus">+</text>
+      </view>
+    </view>
+    <view class="button" bindtap="{{addButton == '立即购买' ? 'toPay' : 'toAddCart' }}">{{addButton}}</view>
+  </view>
+  <view class="mask" hidden="{{boxFlag}}" bindtap="addHide"></view>
+
+
+
+
+
+</view>

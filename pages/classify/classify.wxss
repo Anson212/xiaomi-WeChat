@@ -1,0 +1,99 @@
+page{
+  width: 100%;
+  height: 100%;
+}
+
+#category-container{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#view_search{
+  border-bottom: 1rpx solid #eee;
+  /* height: 130rpx; */
+  height: 12%;
+}
+
+/*搜索框  */
+#search_goods{
+  border-radius:35rpx;
+  background-color:#F0F0F0;
+  height: 80rpx;
+  line-height: 80rpx;
+  width: 650rpx;
+  margin: 25rpx auto;
+  text-align: center;
+  color: #808080;
+}
+
+#category{
+  display:flex;
+  /* height:1204rpx; */
+  /* width: 100%; */
+  height: 100%;
+}
+
+/*左侧栏主盒子*/ 
+.nav_left{ 
+  width: 25%; 
+  height: 100%; 
+  background-color: #F0F0F0; 
+  text-align: center; 
+}
+
+/*左侧栏list的item*/ 
+.nav_left .nav_left_items{ 
+  height: 100rpx;  
+  line-height: 100rpx;
+  font-size: 28rpx; 
+} 
+
+/*左侧栏list的item被选中时*/ 
+.nav_left .nav_left_items.active{ 
+  background: #fff; 
+  color: #E53D30; 
+} 
+/*右侧栏主盒子*/ 
+.nav_right{ 
+  width: 75%; 
+  height: 100%; 
+  padding: 0rpx 20rpx; 
+  /* box-sizing: border-box;  */
+}
+
+/*右侧栏list的item*/ 
+.nav_right .nav_right_items{ 
+  float: left; 
+  /*每个item设置宽度是33.33%*/ 
+  width: 50%; 
+  /* height: 280rpx;  */
+  height: 98%;
+  text-align: center; 
+}
+
+.nav_right .nav_right_items image{ 
+  width: 200rpx; 
+  height: 200rpx; 
+  margin-top: 15rpx; 
+} 
+
+.nav_right .nav_right_items text{ 
+  display: block; 
+  /* margin-top: 15rpx;  */
+  font-size: 14px; 
+  /*设置文字溢出部分为...*/ 
+  overflow: hidden; 
+  white-space: nowrap; 
+  text-overflow: ellipsis; 
+} 
+
+.nodata_text
+{
+color: black;
+font-size: 14px; 
+text-align: center; 
+}
+
+
+
