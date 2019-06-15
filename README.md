@@ -9,17 +9,7 @@
 
 # 项目截图
 
-![image](https://github.com/Anson212/xiaomi-WeChat/blob/master/images/gif.gif)
-
-![image](https://github.com/Anson212/xiaomi-WeChat/blob/master/images/shouye.png)
-
-![image](https://github.com/Anson212/xiaomi-WeChat/blob/master/images/224342.png)
-
-![image](https://github.com/Anson212/xiaomi-WeChat/blob/master/images/fafa.png)
-
-![image](https://github.com/Anson212/xiaomi-WeChat/blob/master/images/ghgsdgs.png)
-
-![image](https://github.com/Anson212/xiaomi-WeChat/blob/master/images/jjaa.png)
+![image](https://github.com/Anson212/xiaomi-WeChat/blob/master/images/gif.gif)![image](https://github.com/Anson212/xiaomi-WeChat/blob/master/images/shouye.png)![image](https://github.com/Anson212/xiaomi-WeChat/blob/master/images/224342.png)![image](https://github.com/Anson212/xiaomi-WeChat/blob/master/images/fafa.png)![image](https://github.com/Anson212/xiaomi-WeChat/blob/master/images/ghgsdgs.png)![image](https://github.com/Anson212/xiaomi-WeChat/blob/master/images/jjaa.png)
 
 # 购物车功能
 
